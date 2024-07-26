@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TELEMECATRONIC</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+    <header class="header">     
+                
+    <img class="header__imagen"src="img/logo.png" alt="">
+
+    <h1 class="titulo"> Api Gatitos</h1>
+    
+    
+    </header>
+    <div class="nav-bg">
+        
+    
+            <nav class="navegacion-principal contenedor">
+        
+        <a href="index.html">Quiénes Somos</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+		<a href="api.html">Gatos API</a>
+    </nav>
+    </div>
+
+    <main>
+        <div class="container">
+        <h1>Galeria de Fotos</h1>
+         <h4>Ingresa el numero de fotos</h4>
+                <input type="number" id="input" name="input" value = "2" min="1" max="10">
+       
+
+        <button class="btn" id="btn">Traer Fotos</button>
+        <div class="gallery" id="gallery"></div>
+    </div>  
+
+    </main>
+
+
+    <script src="js/api.js"></script>
+    <footer class="footer">
+        <p>Todos los derechos reservados. TELEMECATRONIC S.A.S</p>
+
+    </footer>
+    
+</body>
+
+
+    </html>
